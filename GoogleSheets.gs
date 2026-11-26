@@ -13,7 +13,7 @@ var REGISTRATION_HEADERS_ = [
   "Gym Name",
 ];
 var REGISTRATION_SPREADSHEET_ID_ =
-  "1yrMuIfk6MZP3wOhR7FuM9jyVxr9_eYB8PMN5qd6p9MA";
+  "1X8F4kIh3Pk6psrxo0jL80pRZYMzLlaatCcXto8bcjtQ";
 
 function setupRegistrationSheet() {
   var properties = PropertiesService.getScriptProperties();

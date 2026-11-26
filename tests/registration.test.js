@@ -128,7 +128,7 @@ test('posts exactly normalized fields as URL-encoded data and reads a matching c
 test('uses the configured Apps Script URL when no endpoint is passed', async () => {
   await submitRegistration(validFields, {
     async fetchImpl(url) {
-      assert.equal(url, 'https://script.google.com/macros/s/AKfycbwShfk3GN4e5RZ_h0hEau3c40IwebGFnWZg1ifCXaWZiDLkxtVjIeqUx36gDKq5nYcZdA/exec')
+      assert.equal(url, 'https://script.google.com/macros/s/AKfycbwsRPgWLasY75zNtIvA-XPY2SbqljF4FyEkvjwT125PPn-DnHNtyXW4qzVoykSMjstA/exec')
       return confirmed()
     },
   })

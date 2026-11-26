@@ -5,7 +5,7 @@ const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{
 // eslint-disable-next-line no-control-regex
 const CONTROL_CHARACTERS = /[\u0000-\u001f\u007f]/
 const UNCONFIRMED_MESSAGE = 'We couldn’t confirm your submission. Please try again.'
-const REGISTRATION_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwShfk3GN4e5RZ_h0hEau3c40IwebGFnWZg1ifCXaWZiDLkxtVjIeqUx36gDKq5nYcZdA/exec'
+const REGISTRATION_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwsRPgWLasY75zNtIvA-XPY2SbqljF4FyEkvjwT125PPn-DnHNtyXW4qzVoykSMjstA/exec'
 
 export function normalizeRegistration(values) {
   return {
